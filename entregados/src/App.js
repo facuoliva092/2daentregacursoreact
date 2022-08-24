@@ -10,7 +10,7 @@ function App() {
       <header className="App-header">
      <Navbar></Navbar>
      <Carrito></Carrito>
-     <ItemListContainer></ItemListContainer>
+     <ItemListContainer mensaje="TU SITIO WEB DE ARTICULOS DE HOCKEY"></ItemListContainer>
 
       </header>
     </div>

@@ -1,8 +1,10 @@
-function ItemListContainer () {
-    return (
+function ItemListContainer (props) {
+    const {mensaje} = props;
+            return (
          <>
-         <div>
-            <h2>TU SITIO WEB DE ARTICULOS DE HOCKEY</h2>
+         <div><h2>
+            {mensaje}
+            </h2>
          </div>
          </>
     )
