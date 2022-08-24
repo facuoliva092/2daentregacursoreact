@@ -1,5 +1,5 @@
 .alerta-contenedor {
-    background-color: aquamarine;
+    background-color: #769eec;
     color: bisque;
     width: 100%;
 
@@ -10,3 +10,6 @@
     color: bisque;
 }
 
+.carrito {
+    margin-right: 1200px;
+}

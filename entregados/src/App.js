@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Carrito from './components/Navbar/CartWidget';
+import ItemListContainer from './components/ItemListContainer';
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
       <header className="App-header">
      <Navbar></Navbar>
      <Carrito></Carrito>
+     <ItemListContainer></ItemListContainer>
+
       </header>
     </div>
   );
