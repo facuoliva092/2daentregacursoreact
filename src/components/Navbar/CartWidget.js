@@ -1,7 +1,7 @@
 import './Navbar.css';
-import carrito from './carrito.png';
+import carrito from './assets/carrito.png';
 
-function Carrito () {
+function CartWidget () {
     return (
         <>
         <div className='carrito'>
@@ -11,4 +11,4 @@ function Carrito () {
     )
 }
 
-export default Carrito;
+export default CartWidget;
