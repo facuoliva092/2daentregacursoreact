@@ -13,7 +13,9 @@ const Cart = ({stock, initial, pay})=>{
        if(cart>0){
        setCart (cart - 1)
       }
-    }
+    } 
+
+    
 
 
     
