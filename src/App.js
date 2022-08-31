@@ -14,10 +14,12 @@ console.log('funcion pago', pagar)
   return (
     <div className="App">
       <header className="App-header">
-    <Navbar></Navbar>
-    <ItemListContainer/>
-    <Cart stock={10} initial={1} pay={pago}/>
-    <CartWidget></CartWidget>
+        <Navbar></Navbar>
+        <ItemListContainer/>
+        <br/>
+        <br/>
+        <CartWidget></CartWidget>
+        <Cart stock={10} initial={1} pay={pago}/>
       </header>
     </div>
   );
