@@ -1,8 +1,9 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
-import CartWidget from './components/Navbar/CartWidget';
+
 import { ItemListContainer } from './components/ItemListContainer/ItemListContainer';
 import Cart from './components/Cart/cart';
+import { ItemDetailContainer } from './components/ItemDetailContainer/ItemDetailContainer';
 
 
 
@@ -16,9 +17,10 @@ console.log('funcion pago', pagar)
       <header className="App-header">
         <Navbar></Navbar>
         <ItemListContainer/>
+        <ItemDetailContainer/>
         <br/>
         <br/>
-        <CartWidget></CartWidget>
+        
         <Cart stock={10} initial={1} pay={pago}/>
       </header>
     </div>

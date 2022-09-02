@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import { Item } from "../ItemList/Item";
 import dita1 from "../../assets/dita1.jpg";
 import adidas2 from "../../assets/adidas2.jpg";
 import grays3 from "../../assets/grays3.jpg";
+import { ItemList } from '../ItemList/ItemList';
+
 
 const arraySticks= [
    {
@@ -31,17 +32,6 @@ const arraySticks= [
  
  
  
-//  function ItemListContainer (props) {
-//     const {mensaje} = props;
-//             return (
-//          <>
-//          <div><h2>
-//             {mensaje}
-//             </h2>
-//          </div>
-//          </>
-//     )
-// }
 
 export const ItemListContainer = () => {
    const [sticks, setSticks] = useState([]);
@@ -72,14 +62,11 @@ const funcionAsincrona = async() =>{
 
  return (
  
-     <div className='cards'>
-         {
-          sticks.map((stick)=>{
-               return(
-                  <Item stick={stick}/>
-                     )
-                })
-            }
+     <div>
+    
+         <ItemList sticks={sticks}/>
+         <button>Ver mas detalles</button>
+    
     </div>
 
  )
